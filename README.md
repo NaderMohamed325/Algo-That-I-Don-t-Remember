@@ -40,7 +40,7 @@ public:
 
 
 
-## The **DNF  Algorithm** is used to sort an array containing three distinct values .
+## The **DNF  Algorithm** is used to sort an array containing three distinct values  (Sucks BTW).
 
 
 ### Problem
