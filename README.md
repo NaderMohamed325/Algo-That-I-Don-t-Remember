@@ -105,16 +105,6 @@ vector<int> Solution::getRow(int A) {
 }
 ```
 
-### Explanation
-
-1. **Initialization**:
-   - Create a vector `ans` of size \(A + 1\), initialized to all 1s.
-
-2. **Iterative calculation**:
-   - Use the relation \( C(n, k) = \frac{C(n, k-1) \cdot (n-k+1)}{k} \) to compute each value iteratively.
-
-3. **Return the result**:
-   - The final vector `ans` contains all values in the \(A\)-th row of Pascal's Triangle.
 
 ### Complexity
 - **Time**: \(O(A)\), as it calculates each value in the row once.
